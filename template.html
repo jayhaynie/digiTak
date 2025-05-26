@@ -3,13 +3,42 @@
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Template</title>
-	<link rel="stylesheet" type="text/css" href="">
+	<title>DigiTak</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-	<div id="welcomeDiv">
-		<h2>digitalTak</h2>
+<body id="bodyElement">
+	<!-- StartPage -->
+	<div>
+		<img id="selectDarkTeam" src="images/darkPathstoneImage.png">
+		<p id="selectDarkTeamText">DARK</p>
 	</div>
+	<div>
+		<img id="selectLightTeam" src="images/lightPathstoneImage.png">
+		<p id="selectLightTeamText">LIGHT</p>
+	</div>
+	<div id="boardSizeDiv">
+		<button id="boardSizeButton3">3X3</button>
+		<button id="boardSizeButton4">4X4</button>
+		<button id="boardSizeButton5">5X5</button>
+		<button id="boardSizeButton6">6X6</button>
+		<button id="boardSizeButton7">7X7</button>
+		<button id="boardSizeButton8">8X8</button>
+	</div>
+	<button id="startButton">START A GAME</button>
+
+	<!-- gamePage -->
+	<div id="gameBoardDiv">
+		<img id="gameBoard" src="images/grid3.png">
+	</div>
+	 
+	<img id="lightPathIcon" src="images/lightPathstoneImage.png">
+	<img id="lightWallIcon" src="images/lightWallstoneImage.png">
+	<img id="lightCapIcon" src="images/lightCapstoneImage.png">
+	<img id="darkPathIcon" src="images/darkPathstoneImage.png">
+	<img id="darkWallIcon" src="images/darkWallstoneImage.png">
+	<img id="darkCapIcon" src="images/darkCapstoneImage.png">
+	<img id="lightInfoIcon" src="images/info.png">
+	<img id="darkInfoIcon" src="images/info.png">
 
 	<script src="app.js"></script>
 </body>

@@ -1,0 +1,173 @@
+* {
+  font-family: 'Century Gothic', 'Helvetica', sans-serif;
+  /* font-family: 'Copperplate', 'Arial', sans-serif; */
+}
+
+#bodyElement {
+  background-image: url('images/startPage.png');
+  background-size: cover;
+}
+
+#selectDarkTeam {
+  display: block;
+  position: absolute;
+  border: 4px solid transparent;
+  border-radius: 12px;
+  height: 150px;
+  width: 150px;
+  top: 50%;
+  left: 40%;
+}
+
+#selectLightTeam {
+  display: block;
+  position: absolute;
+  border: 4px solid transparent;
+  border-radius: 12px;
+  height: 150px;
+  width: 150px;
+  top: 50%;
+  left: 52%;
+}
+
+#selectDarkTeamText {
+  color: grey;
+  font-size: 30px;
+  display: block;
+  position: absolute;
+  top: 53%;
+  left: 41.5%;
+  z-index: 100;
+}
+
+#selectLightTeamText {
+  color: grey;
+  font-size: 30px;
+  display: block;
+  position: absolute;
+  top: 53%;
+  left: 53.5%;
+  z-index: 100;
+}
+
+#boardSizeDiv {
+  display: block;
+  position: absolute;
+  top: 80%;
+  left: 33%;
+}
+
+#boardSizeButton3, #boardSizeButton4, #boardSizeButton5, #boardSizeButton6, #boardSizeButton7, #boardSizeButton8 {
+  font-size: 40px;
+  margin-right: 20px;
+  border-radius: 12px;
+  background-color: forestgreen;
+  border-color: none;
+}
+
+#startButton {
+  display: block;
+  position: absolute;
+  font-size: 40px;
+  border-radius: 12px;
+  top: 90%;
+  left: 42%;
+}
+
+#gameBoardDiv {
+  display: none;
+  position: absolute;
+  left: 25%;
+  height: 925px;
+  width: 925px;
+}
+
+#gameBoard {
+  height: 100%;
+  width: 100%;
+}
+
+.placeSquare {
+  position: absolute;
+  border: 4px solid aqua;
+}
+
+#lightPathIcon {
+  display: none;
+  position: absolute;
+  border: 4px solid aqua;
+  height: 100px;
+  width: 100px;
+  top: 20%;
+  left: 15%;
+}
+
+#lightWallIcon {
+  display: none;
+  position: absolute;
+  border: transparent;
+  height: 100px;
+  width: 100px;
+  top: 45%;
+  left: 15%;
+}
+
+#lightCapIcon {
+  display: none;
+  position: absolute;
+  border: transparent;
+  height: 100px;
+  width: 100px;
+  top: 70%;
+  left: 15%;
+}
+
+#darkPathIcon {
+  display: none;
+  position: absolute;
+  border: 4px solid aqua;
+  height: 100px;
+  width: 100px;
+  top: 20%;
+  left: 78%;
+}
+
+#darkWallIcon {
+  display: none;
+  position: absolute;
+  border: transparent;
+  height: 100px;
+  width: 100px;
+  top: 45%;
+  left: 78%;
+}
+
+#darkCapIcon {
+  display: none;
+  position: absolute;
+  border: transparent;
+  height: 100px;
+  width: 100px;
+  top: 70%;
+  left: 78%;
+}
+
+#lightInfoIcon {
+  display: none;
+  position: absolute;
+  border-radius: 12px;
+  height: 50px;
+  width: 50px;
+  top: 50px;
+  left: 50px;
+}
+
+#darkInfoIcon {
+  display: none;
+  position: absolute;
+  border-radius: 12px;
+  height: 50px;
+  width: 50px;
+  bottom: 50px;
+  right: 50px;
+}
