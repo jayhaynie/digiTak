@@ -11,6 +11,14 @@ const darkWallIcon = document.getElementById("darkWallIcon");
 const darkCapIcon = document.getElementById("darkCapIcon");
 const lightInfoIcon = document.getElementById("lightInfoIcon");
 const darkInfoIcon = document.getElementById("darkInfoIcon");
+const darkStoneAmount = document.getElementById("darkStoneAmount");
+const lightStoneAmount = document.getElementById("lightStoneAmount");
+const darkCapAmount = document.getElementById("darkCapAmount");
+const lightCapAmount = document.getElementById("lightCapAmount");
+const lightStoneAmountDiv = document.getElementById("lightStoneAmountDiv");
+const darkStoneAmountDiv = document.getElementById("darkStoneAmountDiv");
+const lightCapAmountDiv = document.getElementById("lightCapAmountDiv");
+const darkCapAmountDiv = document.getElementById("darkCapAmountDiv");
 
 
 startButton.addEventListener("click", function () {
@@ -31,9 +39,15 @@ startButton.addEventListener("click", function () {
   darkCapIcon.style.display = "block";
   lightInfoIcon.style.display = "block";
   darkInfoIcon.style.display = "block";
+  lightStoneAmountDiv.style.display = "block";
+  darkStoneAmountDiv.style.display = "block";
+  lightCapAmountDiv.style.display = "block";
+  darkCapAmountDiv.style.display = "block";
 
   if (boardSelect.three === 1) {
     gameBoard.src = "images/grid3.png";
+    lightStoneAmount.textContent = "x12";
+    darkStoneAmount.textContent = "x12";
 
     for (let i = 1; i < 10; i++) {
       const place = document.createElement('img');
@@ -91,7 +105,7 @@ const selectLightTeamText = document.getElementById("selectLightTeamText");
 
 let teamSelect = {
   dark: 0,
-  light: 0
+  light: 1
 };
 
 selectDarkTeam.addEventListener("click", function() {

@@ -112,6 +112,19 @@
   left: 15%;
 }
 
+#lightStoneAmountDiv {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 8%;
+}
+
+#lightStoneAmount {
+  font-size: 50px;
+  color: darkcyan;
+  font-weight: bolder;
+}
+
 #lightCapIcon {
   display: none;
   position: absolute;
@@ -120,6 +133,19 @@
   width: 100px;
   top: 70%;
   left: 15%;
+}
+
+#lightCapAmountDiv {
+  display: none;
+  position: absolute;
+  top: 68%;
+  left: 8%;
+}
+
+#lightCapAmount {
+  font-size: 50px;
+  color: darkcyan;
+  font-weight: bolder;
 }
 
 #darkPathIcon {
@@ -142,6 +168,19 @@
   left: 78%;
 }
 
+#darkStoneAmountDiv {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 85%;
+}
+
+#darkStoneAmount {
+  font-size: 50px;
+  color: darkcyan;
+  font-weight: bolder;
+}
+
 #darkCapIcon {
   display: none;
   position: absolute;
@@ -150,6 +189,19 @@
   width: 100px;
   top: 70%;
   left: 78%;
+}
+
+#darkCapAmountDiv {
+  display: none;
+  position: absolute;
+  top: 68%;
+  left: 85%;
+}
+
+#darkCapAmount {
+  font-size: 50px;
+  color: darkcyan;
+  font-weight: bolder;
 }
 
 #lightInfoIcon {
