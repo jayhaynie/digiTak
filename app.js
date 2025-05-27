@@ -104,8 +104,8 @@ const selectLightTeam = document.getElementById("selectLightTeam");
 const selectLightTeamText = document.getElementById("selectLightTeamText");
 
 let teamSelect = {
-  dark: 0,
-  light: 1
+  dark: 1,
+  light: 0
 };
 
 selectDarkTeam.addEventListener("click", function() {

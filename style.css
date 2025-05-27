@@ -11,7 +11,7 @@
 #selectDarkTeam {
   display: block;
   position: absolute;
-  border: 4px solid transparent;
+  border: 4px solid aqua;
   border-radius: 12px;
   height: 150px;
   width: 150px;
@@ -57,7 +57,15 @@
   left: 33%;
 }
 
-#boardSizeButton3, #boardSizeButton4, #boardSizeButton5, #boardSizeButton6, #boardSizeButton7, #boardSizeButton8 {
+#boardSizeButton3 {
+  font-size: 40px;
+  margin-right: 20px;
+  border-radius: 12px;
+  background-color: forestgreen;
+  border-color: aqua;
+}
+
+#boardSizeButton4, #boardSizeButton5, #boardSizeButton6, #boardSizeButton7, #boardSizeButton8 {
   font-size: 40px;
   margin-right: 20px;
   border-radius: 12px;
