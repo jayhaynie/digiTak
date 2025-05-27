@@ -171,3 +171,25 @@
   bottom: 50px;
   right: 50px;
 }
+
+#infoPageDiv {
+  display: none;
+  position: absolute;
+  top: 2.5%;
+  left: 31%;
+  height: 900px;
+  width: 700px;
+}
+
+#infoPage {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+
+#infoTextDiv {
+  position: relative;
+  color: white;
+  margin: 40px;
+}

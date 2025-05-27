@@ -275,14 +275,17 @@ lightInfoIcon.addEventListener("click", function() {
     lightInfoIcon.style.border = "4px solid aqua";
     clickedIcon.darkInfo = 1;
     darkInfoIcon.style.border = "4px solid aqua";
+
+    document.getElementById("infoPageDiv").style.display = "block";
   } else {
     clickedIcon.lightInfo = 0;
     lightInfoIcon.style.border = "transparent";
     clickedIcon.darkInfo = 0;
     darkInfoIcon.style.border = "transparent";
 
-    console.log(clickedIcon);
+    document.getElementById("infoPageDiv").style.display = "none";
   };
+  console.log(clickedIcon);
 });
 darkInfoIcon.addEventListener("click", function() {
   if (clickedIcon.darkInfo === 0) {
@@ -290,14 +293,17 @@ darkInfoIcon.addEventListener("click", function() {
     darkInfoIcon.style.border = "4px solid aqua";
     clickedIcon.lightInfo = 1;
     lightInfoIcon.style.border = "4px solid aqua";
+
+    document.getElementById("infoPageDiv").style.display = "block";
   } else {
     clickedIcon.darkInfo = 0;
     darkInfoIcon.style.border = "transparent";
     clickedIcon.lightInfo = 0;
     lightInfoIcon.style.border = "transparent";
 
-    console.log(clickedIcon);
-  };
+   document.getElementById("infoPageDiv").style.display = "none";
+  }; 
+  console.log(clickedIcon);
 });
 
 lightPathIcon.addEventListener("click", function() {
@@ -310,8 +316,9 @@ lightPathIcon.addEventListener("click", function() {
     lightWallIcon.style.border = "transparent";
     lightCapIcon.style.border = "transparent";
 
-    console.log(clickedIcon);
+    
   };
+  console.log(clickedIcon);
 });
 lightWallIcon.addEventListener("click", function() {
   if (clickedIcon.lightWall === 0) {
@@ -323,8 +330,9 @@ lightWallIcon.addEventListener("click", function() {
     lightWallIcon.style.border = "4px solid aqua";
     lightCapIcon.style.border = "transparent";
 
-    console.log(clickedIcon);
+    
   };
+  console.log(clickedIcon);
 });
 lightCapIcon.addEventListener("click", function() {
   if (clickedIcon.lightCap === 0) {
@@ -336,8 +344,9 @@ lightCapIcon.addEventListener("click", function() {
     lightWallIcon.style.border = "transparent";
     lightCapIcon.style.border = "4px solid aqua";
 
-    console.log(clickedIcon);
+    
   };
+  console.log(clickedIcon);
 });
 darkPathIcon.addEventListener("click", function() {
   if (clickedIcon.darkPath === 0) {
@@ -349,8 +358,9 @@ darkPathIcon.addEventListener("click", function() {
     darkWallIcon.style.border = "transparent";
     darkCapIcon.style.border = "transparent";
 
-    console.log(clickedIcon);
+    
   };
+  console.log(clickedIcon);
 });
 darkWallIcon.addEventListener("click", function() {
   if (clickedIcon.darkWall === 0) {
@@ -362,8 +372,9 @@ darkWallIcon.addEventListener("click", function() {
     darkWallIcon.style.border = "4px solid aqua";
     darkCapIcon.style.border = "transparent";
 
-    console.log(clickedIcon);
+    
   };
+  console.log(clickedIcon);
 });
 darkCapIcon.addEventListener("click", function() {
   if (clickedIcon.darkCap === 0) {
@@ -375,6 +386,7 @@ darkCapIcon.addEventListener("click", function() {
     darkWallIcon.style.border = "transparent";
     darkCapIcon.style.border = "4px solid aqua";
 
-    console.log(clickedIcon);
+    
   };
+  console.log(clickedIcon);
 });
