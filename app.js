@@ -105,7 +105,7 @@ const selectLightTeamText = document.getElementById("selectLightTeamText");
 
 let teamSelect = {
   dark: 1,
-  light: 0
+  light: 0,
 };
 
 selectDarkTeam.addEventListener("click", function() {
@@ -116,6 +116,7 @@ selectDarkTeam.addEventListener("click", function() {
   teamSelect.light = 0;
 
   console.log(teamSelect);
+  console.log("The dark side has cookies!");
 });
 
 selectDarkTeamText.addEventListener("click", function() {
@@ -136,6 +137,7 @@ selectLightTeam.addEventListener("click", function() {
   teamSelect.dark = 0;
 
   console.log(teamSelect);
+  console.log("Hi Canberra!");
 });
 
 selectLightTeamText.addEventListener("click", function() {
